@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kspace.Result", "src\Kspace.Result\Kspace.Result.csproj", "{8DADA62F-625E-41B6-84EB-63F445D257AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FBA60282-0411-478F-8C5C-6E9721213492}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{038CC259-B533-4F0C-932A-81F1769C134A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kspace.Result.Tests", "tests\Kspace.Result.Tests\Kspace.Result.Tests.csproj", "{CF097C35-2D81-43BA-AF5F-80115B0C4083}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DADA62F-625E-41B6-84EB-63F445D257AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DADA62F-625E-41B6-84EB-63F445D257AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DADA62F-625E-41B6-84EB-63F445D257AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DADA62F-625E-41B6-84EB-63F445D257AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF097C35-2D81-43BA-AF5F-80115B0C4083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF097C35-2D81-43BA-AF5F-80115B0C4083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF097C35-2D81-43BA-AF5F-80115B0C4083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF097C35-2D81-43BA-AF5F-80115B0C4083}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8DADA62F-625E-41B6-84EB-63F445D257AB} = {FBA60282-0411-478F-8C5C-6E9721213492}
+		{CF097C35-2D81-43BA-AF5F-80115B0C4083} = {038CC259-B533-4F0C-932A-81F1769C134A}
+	EndGlobalSection
+EndGlobal
